@@ -1,0 +1,16 @@
+.main-button {
+    width: 181px;
+    height: 68px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: white;
+}
+.main-button:hover {
+    background-color: lightslategrey;
+}
+.link-header {
+    color: #14AE5C;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 48px;
+}
