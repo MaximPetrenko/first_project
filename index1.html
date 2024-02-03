@@ -16,9 +16,9 @@
                 <img src="./images/logo.svg" alt="Logo">
             </a>
             <ul>
-                <li><a class="link-header" #contact-section">Contacts</a></li>
-                <li><a class="link-header" #gallery-section">Gallery</a></li>
-                <li><a class="link-header" #about-section">About</a></li>
+                <li><a class="link-header to-up" #contact-section">Contacts</a></li>
+                <li><a class="link-header to-up" #gallery-section">Gallery</a></li>
+                <li><a class="link-header to-up" #about-section">About</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +29,7 @@
             <button class="main-button" type="submit">Make the order</button>
         </section>
         <section id="gallery-section">
-            <h2>Gallery</h2>
+            <h2 class="to-up">Gallery</h2>
             <article>
                 <img src="./images/honey-waffle-cupcake.jpg" alt="honey waffle">
                 <h2>A Bakery is an establishment as a floor based</h2>
@@ -47,14 +47,23 @@
             </article> 
         </section>
         <section id="about-section">
-            <h2>About</h2>
-            <article><img src="./images/close-up-shot-bakery-bread.jpg" alt="bread"></article>
-            <article><img src="./images/delectable-bakery-pastries.jpg" alt="cukies"></article>
-            <article><img src="./images/doughnuts-from-bakery.jpg" alt="donuts"></article>
+            <h2 class="to-up">About</h2>
+            <article>
+                <img src="./images/close-up-shot-bakery-bread.jpg" alt="bread">
+                <button class="buy-button" type="submit">Buy now</button>
+            </article>
+            <article>
+                <img src="./images/delectable-bakery-pastries.jpg" alt="cukies">
+                <button class="buy-button" type="submit">Buy now</button>
+            </article>
+            <article>
+                <img src="./images/doughnuts-from-bakery.jpg" alt="donuts">
+                <button class="buy-button" type="submit">Buy now</button>
+            </article>
         </section>
     </main>
 
-    <footer>
+    <section>
         <address id="contact-section">
             <ul>
                 <li><a href="#">Name: Jack Sparrow</a></li>
@@ -70,6 +79,7 @@
         allowfullscreen="" 
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="to-up">Customer information</section>
         <button class="main-button" type="submit">Make the order</button>
     </footer>
 </body>

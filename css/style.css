@@ -1,12 +1,19 @@
 :root {
     --color-main: darkblue;
 }
+body {
+    font-family: sans-serif;
+    color: black;
+}
 .main-button {
     width: 181px;
     height: 68px;
     border-radius: 5px;
     border: 2px solid green;
     background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 .main-button:hover {
     background-color: lightslategrey;
@@ -19,4 +26,15 @@
 }
 p {
     color: var(--color-main);
+}
+.buy-button {
+    width: 181px;
+    height: 68px;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.to-up, button {
+    text-transform: uppercase;
 }
