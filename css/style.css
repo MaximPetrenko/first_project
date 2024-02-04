@@ -1,9 +1,20 @@
 :root {
     --color-main: darkblue;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
     color: black;
+}
+h1,
+h2,
+p {
+    margin-top: 0;
+} 
+ul {
+    list-style-type: none;
 }
 .main-button {
     width: 181px;
