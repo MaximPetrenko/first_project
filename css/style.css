@@ -26,9 +26,29 @@ ul {
 
 .content-header {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .header-menu {
     display: flex;
+    gap: 45px;
+    margin-right: 100px;
+}
+
+.main-poster {
+    display: flex;
+    justify-content: center;
+}
+
+.section-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.section-footer {
+    display:flex;
+    justify-content: space-between;
 }
 
 .hidden {
