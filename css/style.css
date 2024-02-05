@@ -1,21 +1,27 @@
 :root {
     --color-main: darkblue;
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: sans-serif;
     color: black;
+    font-size: 24px;
 }
+
 h1,
 h2,
 p {
     margin-top: 0;
 } 
+
 ul {
     list-style-type: none;
 }
+
 .hidden {
     position: absolute;
     left: -10000px;
@@ -24,39 +30,37 @@ ul {
     height: 1px;
     overflow: hidden;
 }
+
 .section {
     padding: 24px 0;
 }
+
 .main-button {
     width: 181px;
     height: 68px;
     border-radius: 5px;
-    border: 2px solid green;
-    background-color: white;
-    font-size: 30px;
+    border: 2px solid rgb(42, 44, 42);
+    background-color: rgb(184, 230, 241);
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
 }
+
 .main-button:hover {
     background-color: lightslategrey;
 }
+
 .link-header {
     color: #14AE5C;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-family: 'Caveat', cursive;
-    font-size: 48px;
+    font-size: 36px;
 }
+
 p {
     color: var(--color-main);
 }
-.buy-button {
-    width: 181px;
-    height: 68px;
-    border-radius: 5px;
-    background-color: lightblue;
-    font-size: 30px;
-    font-weight: bold;
-}
+
 .to-up, button {
     text-transform: uppercase;
 }
