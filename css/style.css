@@ -10,7 +10,6 @@ body {
     font-family: sans-serif;
     color: black;
     font-size: 24px;
-
 }
 
 h1,
@@ -30,6 +29,11 @@ ul {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.logo-img {
+
+}
+
 .header-menu {
     display: flex;
     gap: 45px;
@@ -39,7 +43,6 @@ ul {
 .main-poster {
     display: flex;
     justify-content: center;
-    height: 800px;
 }
 
 .main-background-photo {
@@ -47,6 +50,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 800px;
 }
 
 .section-gallery {
@@ -72,6 +76,9 @@ ul {
 
 .section {
     padding: 24px 0;
+}
+.section:first-child {
+    padding-top: 0;
 }
 
 .main-button {
