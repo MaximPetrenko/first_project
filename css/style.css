@@ -39,6 +39,14 @@ ul {
 .main-poster {
     display: flex;
     justify-content: center;
+    height: 800px;
+}
+
+.main-background-photo {
+    background-image: url('../images/mainphoto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-gallery {
