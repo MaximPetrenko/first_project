@@ -55,6 +55,7 @@ h2 {
 }
 
 /* header */
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -82,7 +83,28 @@ h2 {
 
 /* main */
 
+.main-container {
+    display: flex;
+}
+
+/* gallery section */
+
+.gallery-section-container {
+    display: flex;
+    gap: 45px;
+    flex-basis: calc(100% - 45px / 3);
+}
+
+/* about section */
+
+.about-section-container {
+    display: flex;
+    gap: 45px;
+    flex-basis: calc(100% - 45px / 3);
+}
+
 /* footer */
+
 .link-footer {
     font-family: 'Times New Roman', Times, sans-serif;
     color: black;
