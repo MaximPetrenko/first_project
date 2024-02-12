@@ -87,6 +87,13 @@ h2 {
     display: flex;
 }
 
+.main-background-photo {
+    background-image: url('../images/mainphoto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* gallery section */
 
 .gallery-section-container {
@@ -116,6 +123,6 @@ h2 {
 .footer-section-container {
     display: flex;
     gap: 45px;
-    justify-content: space-around;
+    flex-basis: calc(100% - 45px / 3);
 }
 
