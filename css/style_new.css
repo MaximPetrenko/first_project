@@ -29,21 +29,6 @@ ul {
     max-width: 1477px;
     margin: 0 auto;
 }
-/* header */
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.link-header {
-    color: #14AE5C;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Caveat', cursive;
-    font-size: 36px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 .button-order {
     width: 181px;
@@ -69,6 +54,34 @@ h2 {
     text-transform: uppercase;
 }
 
+/* header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-header {
+    color: #14AE5C;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-header {
+    display: flex;
+    align-items: end;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 45px;
+}
+
+/* main */
+
+/* footer */
 .link-footer {
     font-family: 'Times New Roman', Times, sans-serif;
     color: black;
