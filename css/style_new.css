@@ -113,3 +113,9 @@ h2 {
     font-style: normal;
 }
 
+.footer-section-container {
+    display: flex;
+    gap: 45px;
+    justify-content: space-around;
+}
+
