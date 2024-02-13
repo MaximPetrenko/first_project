@@ -7,6 +7,8 @@ body {
     font-size: 24px;
     font-weight: 900;
     line-height: 1.5;
+    margin: 0; 
+    padding: 0;
 }
 
 .hidden {
@@ -96,9 +98,12 @@ h2 {
 
 /* gallery section */
 
-.gallery-section-container {
+.gallery-list {
     display: flex;
     gap: 45px;
+}
+
+.gallery-items {
     flex-basis: calc(100% - 45px / 3);
 }
 
