@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     margin: 0; 
     padding: 0;
+    width: 100%;
 }
 
 .hidden {
@@ -83,10 +84,13 @@ h2 {
     margin-right: 90px;
 }
 
+.main-gap {
+    margin-top: 40px;
+}
 /* main */
 
 .main-container {
-    display: flex;
+    /*display: flex;*/
 }
 
 .main-background-photo {
@@ -131,3 +135,9 @@ h2 {
     flex-basis: calc(100% - 45px / 3);
 }
 
+.footer-back-photo {
+    background-image: url(../images/honey-waffle-cupcake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
