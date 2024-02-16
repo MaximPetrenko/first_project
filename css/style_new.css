@@ -119,6 +119,13 @@ h2 {
     flex-basis: calc(100% - 45px / 3);
 }
 
+.element-about-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
 /* footer */
 
 .link-footer {
@@ -140,4 +147,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.footer-gap {
+    margin-top: 60px;
 }
