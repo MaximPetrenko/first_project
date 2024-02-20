@@ -91,8 +91,8 @@
             </div>
         </section>
     </main>
-    <footer class="footer-gap">
-        <section id="section-contacts" class="main-gap size-footer">
+    <footer class="footer-gap size-footer">
+        <section id="section-contacts" class="main-gap">
             <div class="container">
                 <div class="footer-back-photo">
                     <ul class="gallery-list">
@@ -118,11 +118,15 @@
                         </li>
                         <li class="gallery-items">
                             <section>Customer information</section>
-                            <button class="button-order" type="submit">Submit</button>
+                            
                             <form name="contact-form" autocomplete="off">
                                 <label for="user-name" >Name</label>
                                 <input type="text" id="user-name"/>
-
+                                <label for="user-number" >Contact Number</label>
+                                <input type="tel" id="user-number"/>
+                                <label for="user-email" >Email</label>
+                                <input type="email" id="user-email"/>
+                                <button class="button-order" type="submit">Submit</button>
                             </form>
                         </li>
                     </ul>
