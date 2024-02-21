@@ -117,15 +117,17 @@
                             </iframe>
                         </li>
                         <li class="gallery-items">
-                            <section>Customer information</section>
-                            
+                            <section class="footer-form">Customer information</section>
                             <form name="contact-form" autocomplete="off">
-                                <label for="user-name" >Name</label>
-                                <input type="text" id="user-name"/>
-                                <label for="user-number" >Contact Number</label>
-                                <input type="tel" id="user-number"/>
-                                <label for="user-email" >Email</label>
-                                <input type="email" id="user-email"/>
+                                <label class="form-label" for="user-name" >Name</label>
+                                <input class="form-input" type="text" name="user-name" id="user-name"/>
+
+                                <label class="form-label" for="user-number" >Contact Number</label>
+                                <input class="form-input" type="tel" name="user-number" id="user-number"/>
+
+                                <label class="form-label" for="user-email" >Email</label>
+                                <input class="form-input" type="email" name="user-email" id="user-email"/>
+
                                 <button class="button-order" type="submit">Submit</button>
                             </form>
                         </li>
