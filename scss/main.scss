@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+}
+
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1477px;
+    margin: 0 auto;
+}
+
+.button-order {
+    width: 181px;
+    height: 68px;
+    border-radius: 5px;
+    border: 2px solid rgba(42, 44, 42, 1);
+    background-color: rgba(208, 213, 214, 1);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-order:hover {
+    background-color: rgba(170, 211, 219, 1);
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+/* header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-header {
+    color: #14AE5C;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-header {
+    display: flex;
+    align-items: end;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 45px;
+    margin-right: 90px;
+}
+
+.main-gap {
+    margin-top: 40px;
+}
+/* main */
+
+.main-container {
+    /*display: flex;*/
+}
+
+.main-background-photo {
+    background-image: url('../images/mainphoto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* gallery section */
+
+.gallery-list {
+    display: flex;
+    gap: 45px;
+}
+
+.gallery-items {
+    flex-basis: calc(100% - 45px / 3);
+}
+
+/* about section */
+
+.about-section-container {
+    display: flex;
+    gap: 45px;
+    flex-basis: calc(100% - 45px / 3);
+}
+
+.element-about-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+/* footer */
+
+.link-footer {
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.footer-section-container {
+    display: flex;
+    gap: 45px;
+    flex-basis: calc(100% - 45px / 3);
+}
+
+.footer-back-photo {
+    background-image: url(../images/honey-waffle-cupcake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-gap {
+    margin-top: 60px;
+}
+
+.size-footer {
+    height: 656px;
+}
+/* Modal */
+/*
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    position: relative;
+    width: 880px;
+    height: 880px;
+    background-color: rgba(213, 218, 218, 1);
+    border-radius: 30px;
+}
+
+.modal.is-hidden {
+    display: none;
+}
+
+.modal-btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+*/
+
+/* form footer */
+
+.footer-form {
+    text-transform: uppercase;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.form-input {
+    width: 100%;
+    max-width: 310px;
+    height: 30px;
+    background-color: rgba(208, 213, 214, 1);
+    border: none;
+    margin: 15px;
+}
+
+.form-label {
+    text-transform: uppercase;
+}
+
+.position-input {
+    display: flex;
+}
+
+.position-button {
+    justify-content: center;
+}
+
+
