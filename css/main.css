@@ -157,6 +157,12 @@ h2 {
 .size-footer {
     height: 656px;
 }
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Modal */
 /*
 .backdrop {
@@ -220,4 +226,5 @@ h2 {
 .position-button {
     justify-content: center;
 }
+
 
